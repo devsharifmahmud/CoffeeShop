@@ -1,16 +1,3 @@
-// var swiper = new Swiper(".mySwiper", {
-//       speed: 1000,
-//       loopAdditionalSlides: 1,
-//       pagination: {
-//         el: ".swiper-pagination",
-//         dynamicBullets: true,
-//       },
-//       autoplay: {
-//         delay: 3000,
-        
-//       }
-      
-//     });
 
 
     var swiper = new Swiper(".mySwiper", {

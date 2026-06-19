@@ -4,20 +4,6 @@
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
-.all-content{
-  background: #f7f5f2;
-}
-html::-webkit-scrollbar-track{
-  background: transparent;
-}
-
-html::-webkit-scrollbar-thumb{
-  background: #b2744c;
-  border-radius: 10px;
-}
-html::-webkit-scrollbar{
-  width: 10px;
-}
 /* navbar */
 #navbar{
   background-color: #b2744c;
@@ -49,29 +35,12 @@ html::-webkit-scrollbar{
 }
 /* navbar */
 /* home content */
-#home{
-    width: 100%;
-    height: 90vh;
-    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(../images/bc3.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 80%;
-    font-family: 'Roboto', sans-serif;
-}
-
-.content{
-  padding-top: 210px;
-  margin-left: 56px;
-
-
-}
-.content h3{
+.position-absolute h3{
   font-size: 50px;
   color: white;
 }
-.content p{
-  margin-top: 10px;
-  color: white;
+.position-relative{
+  height: 500px;
 }
 #btn{
   width: 150px;
@@ -89,12 +58,6 @@ html::-webkit-scrollbar{
   color: white;
 }
 /* home content */
-
-
-
-
-
-
 /* about */
 #about{
   width: 100%;
@@ -136,21 +99,7 @@ html::-webkit-scrollbar{
   background: #b2744c;
   color: white;
 }
-@media screen and (max-width:982px){
-  #about p{
-    font-size: 8px;
-  }
-}
-@media screen and (max-width:766px){
-  #about p{
-    font-size: 15px;
-  }
-  #about{
-    height: 120vh;
-  }
-}
 /* about */
-
 /* top cards */
 .top-cards{
   width: 100%;
@@ -183,32 +132,8 @@ html::-webkit-scrollbar{
   padding-top: 78px;
   color: white;
 }
-.top-cards .card:hover{
-  transform: translateY(-10px);
-}
-@media screen and (max-width:767px){
- .top-cards{
-  height: 170vh;
- } 
-}
-@media screen and (max-width:500px){
- .top-cards{
-  height: 150vh;
- } 
-}
-@media screen and (max-width:370px){
- .top-cards{
-  height: 120vh;
- } 
-}
+
 /* top cards */
-
-
-
-
-
-
-
 /* menu */
 .menu{
   width: 100%;
@@ -248,13 +173,6 @@ html::-webkit-scrollbar{
   cursor: pointer;
 }
 /* menu */
-
-
-
-
-
-
-
 /* product */
 .product{
   width: 100%;
@@ -286,13 +204,6 @@ html::-webkit-scrollbar{
   cursor: pointer;
 }
 /* product */
-
-
-
-
-
-
-
 /* gallary */
 #gallary{
   width: 100%;
@@ -314,10 +225,6 @@ html::-webkit-scrollbar{
   cursor: pointer;
 }
 /* gallary */
-
-
-
-
 /* contact */
 .contact{
   width: 100%;
@@ -378,30 +285,7 @@ html::-webkit-scrollbar{
   margin-left: 13px;
   padding-top: 30px;
 }
-@media screen and (max-width:766px){
-  .contact .container{
-  background: white;
-  }
-  #col{
-    width: 100%;
-    background: #b2744c;
-  }
-  .contact{
-    height: 150vh;
-  }
-}
-@media screen and (max-width:400px){
-  .contact input{
-    width: 250px;
-  }
-  
-}
 /* contact */
-
-
-
-
-
 /* blogs */
 .blogs{
   width: 100%;
@@ -431,73 +315,7 @@ html::-webkit-scrollbar{
   cursor: pointer;
 }
 /* blogs */
-
-
-
-
-
-
 /* footer */
-#footer{
-  width: 100%;
-  background: #b2744c;
-  margin-top: 50px;
-}
-.footer-logo img{
-  width: 180px;
-  border-radius: 10px;
-  margin-top: 30px;
-  cursor: pointer;
-}
-#footer .socail-links i{
-  font-size: 17px;
-  margin-left: 10px;
-  margin-top: 30px;
-  padding: 10px 0px;
-  background: black;
-  color: white;
-  border-radius: 10px;
-  cursor: pointer;
-  width: 40px;
-    height: 50px;
-    text-align: center;
-    padding-top: 16px;
-}
-.credite{
-  color: white;
-  margin-top: 20px;
-}
-.credite{
-  text-shadow: 0px 0px 1px black;
-}
-.credite a{
-  text-decoration: none;
-  color: black;
-  font-weight: bold;
-}
-.credite a span{
-  color: black;
-}
-.copyright span{
-  color: black;
-}
-/* footer */
-html{
-  scroll-behavior: smooth;
-}
-.arrow{
-  position: fixed;
-  border-radius: 50px;
-  height: 50px;
-  bottom: 40px;
-  right: 50px;
-  text-decoration: none;
-  text-align: center;
-  line-height: 50px;
-}
-
-
-
 .footer-section{
   padding-top: 5rem;
   padding-bottom: 1rem;
@@ -509,7 +327,4 @@ html{
 .list-unstyled li a:hover{
   color: rgb(202, 40, 40);
 }
-
-
-
-
+/* footer */

@@ -4,34 +4,20 @@
     box-sizing: border-box;
     font-family: 'Merriweather', serif;
 }
+body{
+  background-color: #f7f5f2;
+}
 /* navbar */
-#navbar{
+.navbar-bg{
   background-color: #b2744c;
-  font-family: 'Roboto', sans-serif;
 }
-#logo img{
-  border-radius: 10px;
-  width: 160px;
-  margin-left: 40px;
-}
-.navbar-nav{
-  margin-left: 50px;
-}
-.nav-item .nav-link{
-  color: black;
-  margin-left: 10px;
-  font-weight: bold;
-  transition: 0.5s;
+.navbar-brand img{
+  width: 80px;
 }
 .nav-item .nav-link:hover{
   background: #f7f5f2;
   border-radius: 5px;
-  color: black;
-}
-#navbar form button{
-  background: black;
-  color: white;
-  border: 1px solid white;
+  color: black !important;
 }
 /* navbar */
 /* home content */
@@ -59,270 +45,71 @@
 }
 /* home content */
 /* about */
-#about{
-  width: 100%;
-  height: 100vh;
-  background: #f7f5f2;
-  font-family: 'Roboto', sans-serif;
-}
-#about .container{
-  padding-top: 70px;
-}
-.heading{
-  text-align: center;
-  margin-bottom: 50px;
-  color: black;
-  font-size: 30px;
-  font-weight: bold;
-}
-.heading span{
-  color: #b2744c;
-}
-#about .card{
-  border-radius: 10px;
-}
-#about .card img{
-  border-radius: 10px;
-}
-#about-btn{
-  width: 200px;
-  height: 36px;
-  background: transparent;
+.about-btn button{
   border: 2px solid #b2744c;
   color: #b2744c;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: 0.5s;
-  cursor: pointer;
 }
-#about-btn:hover{
+.about-btn button:hover{
   background: #b2744c;
   color: white;
 }
 /* about */
-/* top cards */
-.top-cards{
-  width: 100%;
-  height: 60vh;
-  background: #f7f5f2;
-  font-family: 'Roboto', sans-serif;
-}
-.heading2{
-  color: black;
-  text-align: center;
-  font-size: 30px;
-  font-weight: bold;
-}
-.heading2 span{
-  color: #b2744c;
-}
-.top-cards .container{
-  margin-top: 30px;
-}
-.top-cards .card{
-  border-radius: 10px;
-  transition: 0.5s;
-  cursor: pointer;
-}
-.top-cards .card img{
-  border-radius: 10px;
-}
-.top-cards .card h3{
-  text-align: center;
-  padding-top: 78px;
-  color: white;
-}
 
-/* top cards */
-/* menu */
-.menu{
-  width: 100%;
-  background: #f7f5f2;
-  font-family: 'Roboto', sans-serif;
+.span-color {
+  color: #b2744c !important;
 }
-.heading3{
-  text-align: center;
-  font-size: 30px;
-  color: #b2744c;
-  font-weight: bold;
-  border-bottom: 2px solid #b2744c;
+.card-body{
+  color: #b2744c !important;
 }
-#container2{
-  margin-top: 20px;
-}
-.menu .card{
-  background: white;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-}
-.star i{
-  color: #b2744c;
-}
-.menu h3{
-  color: #b2744c;
-  text-align: center;
-  margin-top: 10px;
-  font-size: 25px;
-}
-.menu p{
-  font-size: 16px;
-  color: #b2744c;
-  padding-top: 10px;
-}
-.menu p span{
-  float: right;
-  cursor: pointer;
-}
-/* menu */
-/* product */
-.product{
-  width: 100%;
-  background: #f7f5f2;
-  font-family: 'Roboto', sans-serif;
-}
-.heading4{
-  text-align: center;
-  color: #b2744c;
-  font-size: 30px;
-  font-weight: bold;
-  padding-top: 70px;
-  border-bottom: 2px solid #b2744c;
-}
-#container3{
-  margin-top: 30px;
-}
-.product h3{
-  text-align: center;
-  color: #b2744c;
-  font-size: 23px;
-}
-.product p{
-  color: #b2744c;
-  padding-top: 10px;
-}
-.product p span{
-  float: right;
-  cursor: pointer;
-}
-/* product */
-/* gallary */
-#gallary{
-  width: 100%;
-}
-#gallary h1{
-  text-align: center;
-  color: black;
-  margin-top: 60px;
-  font-weight: bold;
-}
-#gallary h1 span{
-  color: #b2744c;
-}
-#gallary .card{
-  border-radius: 10px;
-}
-#gallary .card img{
-  border-radius: 10px;
-  cursor: pointer;
-}
-/* gallary */
-/* contact */
+/* Contact */
 .contact{
-  width: 100%;
-  height: 100vh;
-  background: #f7f5f2;
-  padding-top: 70px;
-}
-.contact .container{
-  width: 100%;
-  height: 80vh;
-  background: white;
-  background: linear-gradient(90deg, white 80%, #b2744c 20%);
-  border-radius: 10px;
+    background:#f8f9fa;
 }
 .heading6{
-  font-size: 30px;
-  font-weight: bold;
-  margin-top: 70px;
+    font-size:40px;
+    font-weight:bold;
 }
-.heading6 span{
-  color: #b2744c;
+.card-body h6{
+color: #b2744c !important;
 }
-.contact p{
-  font-weight: bold;
-  font-size: 13px;
-  color: black;
+.form-control{
+    height:45px;
 }
-.contact input{
-  width: 360px;
-  border: none;
-  border-bottom: 1px solid;
+.color-btn{
+  background: #b2744c !important;
+  color: white !important;
+  padding: 5px 100px !important;
 }
-#contact-btn{
-  width: 200px;
-  height: 36px; 
-  border: none;
-  background: #b2744c;
-  color: white;
-  font-weight: bold;
-  margin-top: 30px;
-  cursor: pointer;
+.info-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 15px rgba(0,0,0,0.1);
 }
-#col{
-  width: 40%;
-  height: 56vh;
-  background: black;
-  margin-top: 78px;
+.info-box h1{
+    margin-bottom:25px;
 }
-.contact h1{
-  color: white;
-  font-size: 25px;
-  margin-top: 10px;
-  margin-left: 10px;
+.info-box i{
+    color:#ffc107;
+    margin-right:10px;
 }
-.contact #col p{
-  font-size: 15px;
-  color: white;
-  margin-left: 13px;
-  padding-top: 30px;
+.info-box i{
+  color: #b2744c !important;
 }
-/* contact */
-/* blogs */
-.blogs{
-  width: 100%;
-  background: #f7f5f2;
-}
-.blogs h1{
-  text-align: center;
-  font-size: 30px;
-  color: black;
-  font-weight: bold;
-}
-.blogs h1 span{
-  color: #b2744c;
-}
-.blogs .container{
-  margin-top: 60px;
-}
-.blogs h5{
-  color: #b2744c;
-}
-#blogbtn{
-  width: 200px;
-  height: 36px;
-  border: none;
-  color: white;
-  background: #b2744c;
-  cursor: pointer;
-}
-/* blogs */
+/* Contact */
+
+
+
 /* footer */
 .footer-section{
   padding-top: 5rem;
   padding-bottom: 1rem;
+  background: #b2744c !important;
+  color: #fff;
 }
 .list-unstyled li a{
   text-decoration: none;
-  color: #000;
+ color: #fff;
 }
 .list-unstyled li a:hover{
   color: rgb(202, 40, 40);
